@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		1805505B25401D4600C420EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805505A25401D4600C420EE /* AppDelegate.swift */; };
-		1805505D25401D4600C420EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805505C25401D4600C420EE /* SceneDelegate.swift */; };
-		1805505F25401D4600C420EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805505E25401D4600C420EE /* ViewController.swift */; };
+		1805505F25401D4600C420EE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805505E25401D4600C420EE /* HomeView.swift */; };
 		1805506225401D4600C420EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1805506025401D4600C420EE /* Main.storyboard */; };
 		1805506425401D4800C420EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1805506325401D4800C420EE /* Assets.xcassets */; };
 		1805506725401D4800C420EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1805506525401D4800C420EE /* LaunchScreen.storyboard */; };
+		1805507225401DC100C420EE /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805507125401DC100C420EE /* HomePresenter.swift */; };
+		1805507725401E7E00C420EE /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805507625401E7E00C420EE /* UIView.swift */; };
+		1805507F25401EB800C420EE /* DateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1805507B25401EB700C420EE /* DateCell.xib */; };
+		1805508025401EB800C420EE /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1805507C25401EB700C420EE /* CategoryCell.xib */; };
+		1805508125401EB800C420EE /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805507D25401EB700C420EE /* DateCell.swift */; };
+		1805508225401EB800C420EE /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805507E25401EB700C420EE /* CategoryCell.swift */; };
+		180550842540207A00C420EE /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180550832540207A00C420EE /* CalendarCell.swift */; };
+		18055086254020AF00C420EE /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18055085254020AF00C420EE /* EventCell.swift */; };
+		18B0C434254026F800FEAD14 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C433254026F800FEAD14 /* Header.swift */; };
+		18B0C43625402A8E00FEAD14 /* HomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C43525402A8E00FEAD14 /* HomeProtocol.swift */; };
+		18B0C43825402C2000FEAD14 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C43725402C2000FEAD14 /* HomeRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1805505725401D4600C420EE /* UI-Task-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI-Task-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1805505A25401D4600C420EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1805505C25401D4600C420EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1805505E25401D4600C420EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1805505E25401D4600C420EE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1805506125401D4600C420EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1805506325401D4800C420EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1805506625401D4800C420EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1805506825401D4800C420EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1805507125401DC100C420EE /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		1805507625401E7E00C420EE /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		1805507B25401EB700C420EE /* DateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateCell.xib; sourceTree = "<group>"; };
+		1805507C25401EB700C420EE /* CategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		1805507D25401EB700C420EE /* DateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		1805507E25401EB700C420EE /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		180550832540207A00C420EE /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		18055085254020AF00C420EE /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		18B0C433254026F800FEAD14 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		18B0C43525402A8E00FEAD14 /* HomeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocol.swift; sourceTree = "<group>"; };
+		18B0C43725402C2000FEAD14 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,97 @@
 		1805505925401D4600C420EE /* UI-Task-2 */ = {
 			isa = PBXGroup;
 			children = (
+				18B0C43A254032C200FEAD14 /* Storyboard */,
+				18B0C439254032AE00FEAD14 /* Modules */,
+				1805507525401E7500C420EE /* Extension */,
 				1805505A25401D4600C420EE /* AppDelegate.swift */,
-				1805505C25401D4600C420EE /* SceneDelegate.swift */,
-				1805505E25401D4600C420EE /* ViewController.swift */,
-				1805506025401D4600C420EE /* Main.storyboard */,
 				1805506325401D4800C420EE /* Assets.xcassets */,
-				1805506525401D4800C420EE /* LaunchScreen.storyboard */,
 				1805506825401D4800C420EE /* Info.plist */,
 			);
 			path = "UI-Task-2";
+			sourceTree = "<group>";
+		};
+		1805506E25401D8F00C420EE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1805507025401DA600C420EE /* view */,
+				1805506F25401DA200C420EE /* presenter */,
+				1805507425401DCE00C420EE /* router */,
+				1805507325401DCA00C420EE /* protocol */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1805506F25401DA200C420EE /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1805507125401DC100C420EE /* HomePresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		1805507025401DA600C420EE /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1805507A25401EA700C420EE /* Cell */,
+				1805505E25401D4600C420EE /* HomeView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1805507325401DCA00C420EE /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				18B0C43525402A8E00FEAD14 /* HomeProtocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		1805507425401DCE00C420EE /* router */ = {
+			isa = PBXGroup;
+			children = (
+				18B0C43725402C2000FEAD14 /* HomeRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		1805507525401E7500C420EE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1805507625401E7E00C420EE /* UIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1805507A25401EA700C420EE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				18B0C433254026F800FEAD14 /* Header.swift */,
+				1805507D25401EB700C420EE /* DateCell.swift */,
+				1805507B25401EB700C420EE /* DateCell.xib */,
+				1805507E25401EB700C420EE /* CategoryCell.swift */,
+				1805507C25401EB700C420EE /* CategoryCell.xib */,
+				180550832540207A00C420EE /* CalendarCell.swift */,
+				18055085254020AF00C420EE /* EventCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		18B0C439254032AE00FEAD14 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1805506E25401D8F00C420EE /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		18B0C43A254032C200FEAD14 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1805506025401D4600C420EE /* Main.storyboard */,
+				1805506525401D4800C420EE /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +230,8 @@
 				1805506725401D4800C420EE /* LaunchScreen.storyboard in Resources */,
 				1805506425401D4800C420EE /* Assets.xcassets in Resources */,
 				1805506225401D4600C420EE /* Main.storyboard in Resources */,
+				1805508025401EB800C420EE /* CategoryCell.xib in Resources */,
+				1805507F25401EB800C420EE /* DateCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +242,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1805505F25401D4600C420EE /* ViewController.swift in Sources */,
+				18B0C434254026F800FEAD14 /* Header.swift in Sources */,
+				18B0C43825402C2000FEAD14 /* HomeRouter.swift in Sources */,
+				1805507725401E7E00C420EE /* UIView.swift in Sources */,
+				18055086254020AF00C420EE /* EventCell.swift in Sources */,
+				1805508125401EB800C420EE /* DateCell.swift in Sources */,
+				1805505F25401D4600C420EE /* HomeView.swift in Sources */,
 				1805505B25401D4600C420EE /* AppDelegate.swift in Sources */,
-				1805505D25401D4600C420EE /* SceneDelegate.swift in Sources */,
+				1805507225401DC100C420EE /* HomePresenter.swift in Sources */,
+				1805508225401EB800C420EE /* CategoryCell.swift in Sources */,
+				18B0C43625402A8E00FEAD14 /* HomeProtocol.swift in Sources */,
+				180550842540207A00C420EE /* CalendarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
